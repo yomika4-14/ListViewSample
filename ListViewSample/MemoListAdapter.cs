@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -54,7 +54,7 @@ namespace ListViewSample
                 view = context.LayoutInflater.Inflate(Resource.Layout.Memo, null);
 
 
-            // •\¦“à—e‚Ìİ’è
+            // è¡¨ç¤ºå†…å®¹ã®è¨­å®š
             TextView tvTitle = view.FindViewById<TextView>(Resource.Id.title_text);
             TextView tvContent = view.FindViewById<TextView>(Resource.Id.content_text);
             TextView tvMemoDate = view.FindViewById<TextView>(Resource.Id.date_text);
