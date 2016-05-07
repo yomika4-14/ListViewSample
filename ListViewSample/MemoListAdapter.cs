@@ -49,6 +49,7 @@ namespace ListViewSample
         {
             Memo memo = memoList[position];
 
+            // Viewが再利用されていない場合は新しく作成
             var view = convertView;
             if (view == null)
                 view = context.LayoutInflater.Inflate(Resource.Layout.Memo, null);
